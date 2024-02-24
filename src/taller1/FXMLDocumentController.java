@@ -10,6 +10,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
+import javafx.scene.control.ProgressBar;
 
 /**
  *
@@ -19,6 +20,22 @@ public class FXMLDocumentController implements Initializable {
     
     @FXML
     private Label label;
+    @FXML
+    private Label label1;
+    @FXML
+    private ProgressBar barra1;
+    @FXML
+    private ProgressBar barra2;
+    @FXML
+    private ProgressBar barra3;
+    @FXML
+    private ProgressBar barra4;
+    @FXML
+    private ProgressBar barra5;
+    @FXML
+    private ProgressBar barra6;
+    
+    
     
     @FXML
     private void handleButtonAction(ActionEvent event) {
