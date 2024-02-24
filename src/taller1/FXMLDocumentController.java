@@ -34,6 +34,8 @@ public class FXMLDocumentController implements Initializable {
     private ProgressBar barra5;
     @FXML
     private ProgressBar barra6;
+    @FXML
+    private Label label2;
     
     
     
@@ -46,6 +48,8 @@ public class FXMLDocumentController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
+        
+        
     }    
     
 }

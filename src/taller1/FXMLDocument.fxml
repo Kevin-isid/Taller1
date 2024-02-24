@@ -16,34 +16,18 @@
       <Circle fill="DODGERBLUE" layoutX="152.0" layoutY="101.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fill="DODGERBLUE" layoutX="237.0" layoutY="101.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fill="DODGERBLUE" layoutX="331.0" layoutY="101.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="413.0" layoutY="101.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="430.0" layoutY="101.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
       <ProgressBar fx:id="barra1" layoutX="42.0" layoutY="137.0" prefHeight="14.0" prefWidth="60.0" progress="0.0" />
-      <MenuBar fx:id="idMenuB" layoutX="24.0" layoutY="24.0">
-         <menus>
-            <Menu mnemonicParsing="false" text="File">
-               <items>
-                  <MenuItem mnemonicParsing="false" onAction="#saveFile" text="Save" />
-               </items>
-            </Menu>
-            <Menu mnemonicParsing="false" text="Edit">
-               <items>
-                  <MenuItem mnemonicParsing="false" text="Delete" />
-               </items>
-            </Menu>
-            <Menu mnemonicParsing="false" text="Help">
-               <items>
-                  <MenuItem mnemonicParsing="false" text="About" />
-               </items>
-            </Menu>
-         </menus>
-      </MenuBar>
-      <TextArea fx:id="label" layoutX="37.0" layoutY="203.0" prefHeight="224.0" prefWidth="83.0" />
-      <TextArea fx:id="label1" layoutX="472.0" layoutY="203.0" prefHeight="224.0" prefWidth="83.0" />
+      <TextArea fx:id="label" layoutX="42.0" layoutY="179.0" prefHeight="224.0" prefWidth="83.0" />
+      <TextArea fx:id="label1" layoutX="460.0" layoutY="179.0" prefHeight="224.0" prefWidth="83.0" />
       <ProgressBar fx:id="barra2" layoutX="122.0" layoutY="137.0" prefHeight="14.0" prefWidth="60.0" progress="0.0" />
       <ProgressBar fx:id="barra3" layoutX="207.0" layoutY="137.0" prefHeight="14.0" prefWidth="60.0" progress="0.0" />
       <ProgressBar fx:id="barra4" layoutX="301.0" layoutY="137.0" prefHeight="14.0" prefWidth="60.0" progress="0.0" />
-      <ProgressBar fx:id="barra5" layoutX="383.0" layoutY="137.0" prefHeight="14.0" prefWidth="60.0" progress="0.0" />
-      <Circle fill="DODGERBLUE" layoutX="502.0" layoutY="101.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
-      <ProgressBar fx:id="barra6" layoutX="472.0" layoutY="137.0" prefHeight="14.0" prefWidth="60.0" progress="0.0" />
+      <ProgressBar fx:id="barra5" layoutX="400.0" layoutY="137.0" prefHeight="14.0" prefWidth="60.0" progress="0.0" />
+      <Circle fill="DODGERBLUE" layoutX="525.0" layoutY="101.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+      <ProgressBar fx:id="barra6" layoutX="495.0" layoutY="137.0" prefHeight="14.0" prefWidth="60.0" progress="0.0" />
+      <Button layoutX="46.0" layoutY="14.0" mnemonicParsing="false" text="INICIO" />
+      <Button layoutX="501.0" layoutY="14.0" mnemonicParsing="false" text="FINAL" />
+      <TextArea fx:id="label2" layoutX="201.0" layoutY="203.0" prefHeight="200.0" prefWidth="200.0" />
    </children>
 </AnchorPane>
